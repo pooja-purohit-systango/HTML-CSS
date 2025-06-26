@@ -1,16 +1,6 @@
-'use client'
-import React, { useState } from "react";
+
 
 const Subscribe = () => {
-  const [email, setEmail] = useState("");
-
-  const handleSubmit = (e: any) => {
-    e.preventDefault();
-    if (email) {
-      alert(`Subscribed with email: ${email}`);
-      setEmail("");
-    }
-  };
 
   return (
     <div className="bg-[#FA7436] text-white rounded-[9px] py-16 px-4 relative overflow-hidden text-center">
@@ -28,16 +18,13 @@ const Subscribe = () => {
       </h2>
 
       <form
-        onSubmit={handleSubmit}
         className="relative z-10 w-full max-w-2xl mx-auto"
       >
-        <div className="bg-white flex items-center justify-between rounded-full px-2 py-2 shadow-md">
+        <div className="bg-white flex items-center justify-between  px-2 py-2 shadow-md">
           <input
             type="email"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            placeholder="✉ Enter your email"
-            className="flex-1 px-6 py-3 rounded-l-full text-gray-700 text-sm outline-none"
+            placeholder="Enter your email"
+            className="flex-1 px-6 py-3 text-gray-700 text-sm outline-none"
             required
           />
           <button
