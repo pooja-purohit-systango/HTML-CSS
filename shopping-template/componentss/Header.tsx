@@ -1,9 +1,9 @@
 import React from "react";
 
-const Header = () => {
+const   Header = () => {
   return (
     <header className="w-full bg-[#FBFBEC]">
-      <div className="max-w-[1215px] h-[74.46px] mx-auto flex items-center justify-between px-6 lg:px-[158px]">
+      <div className="max-w-[1215px] h-[74.46px] mx-auto flex items-center justify-between px-6 ">
         <img
           src="/logo.png"
           alt="Travon"
