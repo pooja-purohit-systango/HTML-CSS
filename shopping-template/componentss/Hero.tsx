@@ -7,7 +7,7 @@ const Hero = () => {
     <>
     <div className="bg-[#FBFBEC] pt-[20px] pb-[60px]">
       <img
-        src="/Group.png"
+        src="Group.png"
         alt="arrow"
         className="w-[386px] h-[124px] ml-[300px]"
       />
