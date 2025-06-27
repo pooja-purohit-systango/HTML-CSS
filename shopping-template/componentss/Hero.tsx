@@ -9,12 +9,12 @@ const Hero = () => {
       <img
         src="/Group.png"
         alt="arrow"
-        className="w-[366px] h-[124px] ml-[220px]"
+        className="w-[386px] h-[124px] ml-[300px]"
       />
 
       <div className="flex justify-between items-start">
         <div className="ml-[108px] mt-[10px]">
-          <p className="text-[#07AC9E] font-roboto font-normal text-[21px] tracking-[0.28em] capitalize">
+          <p className="text-[#07AC9E] font-roboto font-normal text-[21px] leading-[120%] tracking-[0.28em] capitalize">
             Save Journey
           </p>
 
@@ -23,7 +23,7 @@ const Hero = () => {
               Make Your <span className="text-[#FF621F]">Holiday</span> Memorable
             </h1>
 
-            <p className="mt-[10px] max-w-[454px] font-inter font-normal text-[21px] text-[#4A4A4A]">
+            <p className="mt-[10px] max-w-[454px] font-inter font-normal text-[21px] leading-[138%] text-[#4A4A4A]">
               Travor is one of the most popular travel agencies for those who
               want to explore the world and try to make adventure.
             </p>

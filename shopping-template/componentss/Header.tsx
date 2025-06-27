@@ -20,7 +20,7 @@ const   Header = () => {
           </ul>
         </nav>
 
-        <button className="w-[70px] h-[26px] mr-[30px] border border-orange-400 text-[12px] rounded-sm">
+        <button className="w-[70px] h-[26px] mr-[30px] border border-orange-400 text-[12px] rounded-sm cursor-pointer hover:border-gray-400">
           Login
         </button>
       </div>
